@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container mx-auto w-11/12">
         <HeaderComponent />
         <UMain>
             <NuxtPage />
