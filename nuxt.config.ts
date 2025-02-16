@@ -38,9 +38,6 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       sentryDsn: process.env.SENTRY_DSN,
-      appwriteConfig: {
-        databaseId: process.env.APPWRITE_DATABASE_ID,
-      },
     }
   },
   ogImage: {
@@ -56,14 +53,13 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-      title: 'Nuxt 3 Template',
+      title: 'BlackDayz - Gameshows',
     },
   },
   extends: [
     '@nuxt/ui-pro'
   ],
-  modules: ['@nuxtjs/i18n', //'nuxt-appwrite'
-  '@nuxt/ui', '@nuxt/image', '@nuxt/fonts', '@sentry/nuxt/module', '@nuxtjs/seo'],
+  modules: ['@nuxtjs/i18n', '@nuxt/ui', '@nuxt/image', '@nuxt/fonts', '@sentry/nuxt/module', '@nuxtjs/seo'],
   plugins: [
     '~/plugins/sentry.ts',
   ],
@@ -92,11 +88,6 @@ export default defineNuxtConfig({
       escapeHtml: false,
       strictMessage: false
     }
-  },
-  // @ts-expect-error - appwrite module is not installed in the base template
-  appwrite: {
-    endpoint: process.env.APPWRITE_ENDPOINT,
-    project: process.env.APPWRITE_PROJECT_ID,
   },
   imports: {
     dirs: [
