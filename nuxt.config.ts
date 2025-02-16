@@ -28,11 +28,11 @@ function generateJsonTranslations() {
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  ssr: false,
+  ssr: true,
   compatibilityDate: '2024-11-14',
   devtools: { enabled: true },
   devServer: {
-    https: true,
+    https: false,
   },
   srcDir: 'src',
   runtimeConfig: {
@@ -44,7 +44,7 @@ export default defineNuxtConfig({
     enabled: false
   },
   colorMode: {
-    preference: 'dark',
+    preference: 'light',
   },
   css: [
     '~/assets/scss/base.scss',
@@ -110,5 +110,8 @@ export default defineNuxtConfig({
     'webpack:change': () => {
       generateJsonTranslations();
     },
+  },
+  tailwindcss: {
+    configPath: './tailwind.config.js',
   },
 })
