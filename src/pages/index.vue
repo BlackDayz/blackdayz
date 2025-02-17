@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="grid lg:flex items-center h-[37vh]">
+        <div class="grid lg:flex items-center mt-20">
             <div class="lg:w-1/2 grid gap-6">
                 <H1Atom :text="text" />
                 <PAtom :text="text" />
@@ -26,7 +26,7 @@
             <SpacerLinesAtom />
         </div>
 
-        <div class="flex h-[47vh]">
+        <div class="flex">
             <ObsVideoComponent />
         </div>
 
@@ -34,8 +34,18 @@
             <SpacerLinesAtom />
         </div>
 
-        <div class="flex h-[20vh]">
-            <StatisticsComponent />
+        <div class="grid gap-40">
+            <div class="flex">
+                <StatisticsComponent />
+            </div>
+
+            <div class="flex justify-center">
+                <TrustedByComponent />
+            </div>
+        </div>
+
+        <div class="h-56 grid items-center">
+            <SpacerLinesAtom />
         </div>
     </div>
 </template>
