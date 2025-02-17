@@ -1,3 +1,4 @@
-export interface exampleInterface {
-    example: string;
+export interface ClientShowcaseInterface {
+    name: string;
+    image: string;
 }
