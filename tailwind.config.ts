@@ -95,9 +95,14 @@ module.exports = {
                     lineHeight: '6rem',
                 },
                 'h2': {
-                    fontSize: theme('fontSize.7xl'),
+                    fontSize: theme('fontSize.8xl'),
                     fontWeight: theme('fontWeight.bold'),
-                    color: theme('colors.blackdayz-primary.DEFAULT'),
+                    color: theme('colors.blackdayz-gray.900'),
+                },
+                'h3,.h3': {
+                    fontSize: theme('fontSize.6xl'),
+                    fontWeight: theme('fontWeight.bold'),
+                    color: theme('colors.blackdayz-gray.900'),
                 },
                 'p': {
                     fontSize: theme('fontSize.xl'),
