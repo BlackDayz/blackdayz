@@ -122,7 +122,7 @@ export default defineNuxtConfig({
     },
     families: [
       {
-        name: 'Raleway',
+        name: 'Kanit',
         provider: 'google',
         global: true,
       }
