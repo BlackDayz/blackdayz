@@ -80,6 +80,9 @@ module.exports = {
                 'blackdayz-primary-shadow': '8px 8px 0px rgb(var(--color-primary-DEFAULT))',
                 'blackdayz-primary-shadow-hover': '12px 12px 0px rgb(var(--color-primary-DEFAULT))',
             },
+            fontFamily: {
+                custom: ['Raleway', 'sans-serif'],
+            }
         }
     },
     plugins: [

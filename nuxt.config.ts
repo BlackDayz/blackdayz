@@ -114,4 +114,18 @@ export default defineNuxtConfig({
   tailwindcss: {
     configPath: './tailwind.config.js',
   },
+  fonts: {
+    provider: 'google',
+    defaults: {
+      weights: [400],
+      styles: ['normal'],
+    },
+    families: [
+      {
+        name: 'Raleway',
+        provider: 'google',
+        global: true,
+      }
+    ],
+  }
 })

@@ -5,3 +5,9 @@ $html-font-size: 16px;
 @function rem($pxValue) {
     @return #{stripUnit($pxValue) / stripUnit($html-font-size)}rem;
 }
+
+body {
+    font-family: Raleway, sans-serif !important;
+    font-size: rem(16px);
+    line-height: 1;
+}
