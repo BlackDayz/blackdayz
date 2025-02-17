@@ -25,6 +25,18 @@
         <div class="h-56 grid items-center">
             <SpacerLinesAtom />
         </div>
+
+        <div class="flex h-[47vh]">
+            <ObsVideoComponent />
+        </div>
+
+        <div class="h-56 grid items-center">
+            <SpacerLinesAtom />
+        </div>
+
+        <div class="flex h-[20vh]">
+            <StatisticsComponent />
+        </div>
     </div>
 </template>
 
