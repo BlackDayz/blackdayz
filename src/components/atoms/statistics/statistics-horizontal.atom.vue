@@ -1,13 +1,13 @@
 <template>
     <div>
-        <h2 class="text-gray-900 grid relative">
+        <span class="h3 grid relative max-w-52">
             {{ mainText }}
             <span
                 v-if="topText"
-                class="text-gray-900 font-bold text-lg absolute -top-5"
+                class=" font-bold text-lg absolute -top-5"
             >{{ topText }}</span>
-            <span class="text-gray-900 font-bold text-2xl before:content['_'] before:w-full before:block before:bg-gray-900 before:h-1">{{ subText }}</span>
-        </h2>
+            <span class="font-bold text-2xl before:content['_'] before:w-full before:block before:bg-gray-900 before:h-1">{{ subText }}</span>
+        </span>
     </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2 class="text-gray-900 grid max-w-fit relative text-right">
+        <span class="h3 text-gray-900 grid max-w-fit relative text-right">
             {{ mainText }}
             <!-- skipcq: JS-0693 -->
             <span
@@ -8,7 +8,7 @@
                 v-html="subtextArray"
             />
             <span class="text-gray-900 font-bold text-lg [writing-mode:vertical-lr] absolute -right-7">{{ verticalText }}</span>
-        </h2>
+        </span>
     </div>
 </template>
 
