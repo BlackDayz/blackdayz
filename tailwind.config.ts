@@ -79,6 +79,8 @@ module.exports = {
             boxShadow: {
                 'blackdayz-primary-shadow': '8px 8px 0px rgb(var(--color-primary-DEFAULT))',
                 'blackdayz-primary-shadow-hover': '12px 12px 0px rgb(var(--color-primary-DEFAULT))',
+                'blackdayz-secondary-shadow': '4px 4px 0px rgb(var(--color-primary-DEFAULT))',
+                'blackdayz-secondary-shadow-hover': '8px 8px 0px rgb(var(--color-primary-DEFAULT))',
             },
             fontFamily: {
                 custom: ['Raleway', 'sans-serif'],
