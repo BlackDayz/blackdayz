@@ -90,7 +90,7 @@ module.exports = {
     plugins: [
         plugin(({ addBase, theme }) => {
             addBase({
-                'h1': {
+                'h1,.h1': {
                     fontSize: theme('fontSize.8xl'),
                     fontWeight: theme('fontWeight.bold'),
                     color: theme('colors.blackdayz-primary.DEFAULT'),
