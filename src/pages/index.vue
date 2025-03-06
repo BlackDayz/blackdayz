@@ -49,6 +49,10 @@
         <div>
             <ProjectTeaserComponent />
         </div>
+
+        <div class="my-48">
+            <AboutComponent />
+        </div>
     </div>
 </template>
 
