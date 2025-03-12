@@ -22,7 +22,9 @@ export default {
   },
   computed: {
     showProjects() {
-      return window.innerWidth > 1024 ? this.projects.slice(0, 4) : this.projects.slice(0, 2);
+      if(window) {
+        return window.innerWidth > 1024 ? this.projects.slice(0, 4) : this.projects.slice(0, 2);
+      }
     },
   },
 };
