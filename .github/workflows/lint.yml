@@ -16,7 +16,6 @@ jobs:
         steps:
             - uses: actions/checkout@v4
               with:
-                token: ${{ secrets.LINT_ACCESS_TOKEN }}
                 ref: ${{ github.head_ref }}
                 fetch-depth: 0
               
