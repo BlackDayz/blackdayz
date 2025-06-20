@@ -1,35 +1,9 @@
-import { load } from 'js-yaml';
-import fs from 'fs';
-import path from 'path';
-
-function loadYamlTranslations(locale: string) {
-  const dirPath = path.resolve(`./i18n/locales/${locale}`);
-  const files = fs.readdirSync(dirPath);
-  return files.reduce((acc, file) => {
-    if (file.endsWith('.yaml') || file.endsWith('.yml')) {
-      const content = fs.readFileSync(path.join(dirPath, file), 'utf8');
-      const data = load(content);
-      return { ...acc, ...data };
-    }
-    return acc;
-  }, {});
-}
-
-function generateJsonTranslations() {
-  const locales = ['de'];
-  locales.forEach((locale) => {
-    const translations = loadYamlTranslations(locale);
-    fs.writeFileSync(
-      path.resolve(`./i18n/locales/.generated/${locale}-${locale.toUpperCase()}.json`),
-      JSON.stringify(translations, null, 2)
-    );
-  });
-}
+import { generateJsonTranslations } from './scripts/i18n/loadYamlTranslations';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: true,
-  compatibilityDate: '2024-11-14',
+  compatibilityDate: '2024-06-20',
   devtools: { enabled: true },
   devServer: {
     https: false,
@@ -47,7 +21,8 @@ export default defineNuxtConfig({
     preference: 'light',
   },
   css: [
-    '~/assets/scss/base.scss',
+      '~/assets/css/main.css',
+      '~/assets/scss/base.scss',
   ],
   app: {
     head: {
@@ -56,10 +31,18 @@ export default defineNuxtConfig({
       title: 'BlackDayz - Gameshows',
     },
   },
-  extends: [
-    '@nuxt/ui-pro'
+  future: {
+    compatibilityVersion: 4,
+  },
+  modules: [
+    '@nuxtjs/i18n',
+    '@nuxt/ui-pro',
+    '@nuxt/image',
+    '@nuxt/fonts',
+    '@sentry/nuxt/module',
+    '@nuxtjs/seo',
+    '@nuxt/eslint'
   ],
-  modules: ['@nuxtjs/i18n', '@nuxt/ui', '@nuxt/image', '@nuxt/fonts', '@sentry/nuxt/module', '@nuxtjs/seo'],
   plugins: [
     '~/plugins/sentry.ts',
   ],
@@ -75,20 +58,19 @@ export default defineNuxtConfig({
     langDir: 'locales/.generated/',
     strategy: 'no_prefix',
     defaultLocale: 'de-DE',
-    vueI18n: './vue-i18n.options.ts',
     locales: [
-      {
-        code: 'de-DE',
-        language: 'de-DE',
-        name: 'Deutsch',
-        file: 'de-DE.json'
-      },
+        {
+            code: 'de-DE',
+            language: 'de-DE',
+            name: 'Deutsch',
+            file: 'de-DE.json',
+        },
     ],
     compilation: {
-      escapeHtml: false,
-      strictMessage: false
+        escapeHtml: false,
+        strictMessage: false
     }
-  },
+},
   imports: {
     dirs: [
       'composables/**',
@@ -105,10 +87,13 @@ export default defineNuxtConfig({
   },
   hooks: {
     'build:before': () => {
-      generateJsonTranslations();
+        generateJsonTranslations();
     },
     'webpack:change': () => {
-      generateJsonTranslations();
+        generateJsonTranslations();
+    },
+    'builder:watch': () => {
+        generateJsonTranslations();
     },
   },
   tailwindcss: {
