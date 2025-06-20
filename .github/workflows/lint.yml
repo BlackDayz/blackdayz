@@ -2,9 +2,9 @@ name: Linter
 
 on:
   pull_request_target:
-      branches: [dev, main]
+      branches: [dev, main, 'feature/version-*']
   push:
-      branches: '**'
+      branches-ignore: ['renovate/**']
   
 permissions:
   contents: write
@@ -16,14 +16,15 @@ jobs:
         steps:
             - uses: actions/checkout@v4
               with:
+                token: ${{ secrets.LINT_ACCESS_TOKEN }}
                 ref: ${{ github.head_ref }}
                 fetch-depth: 0
+              
+            - name: Install pnpm
+              run: npm install -g pnpm
 
-            - name: Install submodules
-              run: git submodule update --init --recursive
-
-            - name: Install .tools
-              run: npm --prefix .tools install
+            - name: Install dependencies
+              run: pnpm install --no-scripts
 
             - name: Lint
-              run: npm --prefix .tools run code:lint
+              run: pnpm code:lint
