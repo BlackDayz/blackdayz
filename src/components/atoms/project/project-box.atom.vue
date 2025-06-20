@@ -17,12 +17,12 @@
 
 <script lang="ts">
 export default {
-  name: 'ProjectBoxAtom',
-  props: {
-    project: {
-      type: Object as () => ProjectInterface,
-      required: true,
+    name: 'ProjectBoxAtom',
+    props: {
+        project: {
+            type: Object as () => ProjectInterface,
+            required: true,
+        },
     },
-  },
 };
 </script>

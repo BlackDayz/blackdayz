@@ -20,12 +20,12 @@
 
 <script lang="ts">
 export default {
-  name: 'ClientsShowcaseAtom',
-  props: {
-    clients: {
-      type: Array as PropType<ClientShowcaseInterface[]>,
-      required: true
+    name: 'ClientsShowcaseAtom',
+    props: {
+        clients: {
+            type: Array as PropType<ClientShowcaseInterface[]>,
+            required: true
+        }
     }
-  }
 };
 </script>

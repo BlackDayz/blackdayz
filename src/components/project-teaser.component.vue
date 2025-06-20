@@ -14,18 +14,18 @@
 import projects from '~/public/projects';
 
 export default {
-  name: 'ProjectTeaserComponent',
-  data() {
-    return {
-      projects: projects as ProjectInterface[],
-    };
-  },
-  computed: {
-    showProjects() {
-      if(window) {
-        return window.innerWidth > 1024 ? this.projects.slice(0, 4) : this.projects.slice(0, 2);
-      }
+    name: 'ProjectTeaserComponent',
+    data() {
+        return {
+            projects: projects as ProjectInterface[],
+        };
     },
-  },
+    computed: {
+        showProjects() {
+            if (window) {
+                return window.innerWidth > 1024 ? this.projects.slice(0, 4) : this.projects.slice(0, 2);
+            }
+        },
+    },
 };
 </script>

@@ -22,6 +22,6 @@
 
 <script lang="ts">
 export default {
-  name: 'AboutComponent',
+    name: 'AboutComponent',
 };
 </script>

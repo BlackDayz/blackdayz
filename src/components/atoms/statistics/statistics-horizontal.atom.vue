@@ -13,21 +13,21 @@
 
 <script lang="ts">
 export default {
-  name: 'StatisticsHorizontalAtom',
-  props: {
-    mainText: {
-      type: String,
-      required: true
-    },
-    subText: {
-      type: String,
-      required: true
-    },
-    topText: {
-      type: String,
-      required: false,
-      default: ''
+    name: 'StatisticsHorizontalAtom',
+    props: {
+        mainText: {
+            type: String,
+            required: true
+        },
+        subText: {
+            type: String,
+            required: true
+        },
+        topText: {
+            type: String,
+            required: false,
+            default: ''
+        }
     }
-  }
 };
 </script>

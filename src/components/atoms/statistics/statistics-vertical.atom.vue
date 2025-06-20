@@ -14,25 +14,25 @@
 
 <script lang="ts">
 export default {
-  name: 'StatisticsVerticalAtom',
-  props: {
-    mainText: {
-      type: String,
-      required: true,
+    name: 'StatisticsVerticalAtom',
+    props: {
+        mainText: {
+            type: String,
+            required: true,
+        },
+        subText: {
+            type: String,
+            required: true,
+        },
+        verticalText: {
+            type: String,
+            required: true,
+        }
     },
-    subText: {
-      type: String,
-      required: true,
+    computed: {
+        subtextArray() {
+            return this.subText.split(' ').join('<br />');
+        },
     },
-    verticalText: {
-      type: String,
-      required: true,
-    }
-  },
-  computed: {
-    subtextArray() {
-      return this.subText.split(' ').join('<br />');
-    },
-  },
 };
 </script>

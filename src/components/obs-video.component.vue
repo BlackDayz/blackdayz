@@ -12,6 +12,6 @@
 
 <script lang="ts">
 export default {
-  name: 'ObsVideoComponent',
+    name: 'ObsVideoComponent',
 };
 </script>

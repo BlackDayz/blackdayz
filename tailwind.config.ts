@@ -1,4 +1,4 @@
-import plugin from "tailwindcss/plugin";
+import plugin from 'tailwindcss/plugin';
 
 module.exports = {
     content: ['./src/**/*.{vue,ts}'],
@@ -19,7 +19,7 @@ module.exports = {
                     900: '#403108',
                     950: '#271E05',
                 },
-                gray: {
+                'gray': {
                     DEFAULT: '#393E41',
                     50: '#929AA0',
                     100: '#879096',
@@ -61,7 +61,7 @@ module.exports = {
                     900: '#676157',
                     950: '#58524A'
                 },
-                background: {
+                'background': {
                     DEFAULT: '#E7E5DF',
                     50: '#FFFFFF',
                     100: '#FFFFFF',
@@ -115,7 +115,7 @@ module.exports = {
                     borderColor: theme('colors.blackdayz-gray.900'),
                     borderRadius: '40px'
                 }
-            })
+            });
         })
     ],
-}
+};

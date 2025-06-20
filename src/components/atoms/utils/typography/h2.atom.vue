@@ -14,17 +14,17 @@
 
 <script lang="ts">
 export default {
-  name: 'H2Atom',
-  props: {
-      text: {
-          type: String,
-          required: true,
-      },
-  },
-  computed: {
-      words() {
-          return this.text.split(' ');
-      }
-  }
+    name: 'H2Atom',
+    props: {
+        text: {
+            type: String,
+            required: true,
+        },
+    },
+    computed: {
+        words() {
+            return this.text.split(' ');
+        }
+    }
 };
 </script>

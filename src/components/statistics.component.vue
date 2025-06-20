@@ -19,6 +19,6 @@
 
 <script lang="ts">
 export default {
-  name: 'StatisticsComponent',
+    name: 'StatisticsComponent',
 };
 </script>

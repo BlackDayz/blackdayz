@@ -37,6 +37,6 @@
 
 <script lang="ts">
 export default {
-  name: 'TrustedByComponent',
+    name: 'TrustedByComponent',
 };
 </script>
