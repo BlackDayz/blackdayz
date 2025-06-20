@@ -1,5 +1,5 @@
 <template>
-    <div class="border-gray-700 border-4 p-3 pb-8 w-[270px] shadow-blackdayz-primary-shadow rounded-[39px] grid">
+    <div class="border-gray-700 border-4 p-3 pb-8 w-[270px] blackdayz-primary-shadow rounded-[39px] grid">
         <NuxtImg
             :src="project.images[0].src"
             :alt="project.images[0].alt"
@@ -11,18 +11,12 @@
                 v-html="project.name"
             />
         </div>
-        <SecondaryButtonAtom :text="'Mehr anzeigen'" />
+        <SecondaryButtonAtom text="Mehr anzeigen" />
     </div>
 </template>
 
-<script lang="ts">
-export default {
-    name: 'ProjectBoxAtom',
-    props: {
-        project: {
-            type: Object as () => ProjectInterface,
-            required: true,
-        },
-    },
-};
+<script lang="ts" setup>
+const { project } = defineProps<{
+    project: ProjectInterface;
+}>();
 </script>

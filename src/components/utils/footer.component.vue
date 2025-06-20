@@ -2,7 +2,7 @@
     <UFooter :links="links">
         <template #left>
             <span
-                v-text="useI18n().t('footer.copyright', {
+                v-text="useT('footer.copyright', {
                     year: new Date().getFullYear(),
                 })"
             />
@@ -12,7 +12,7 @@
             <UColorModeButton />
             <UButton
                 icon="i-simple-icons-github"
-                color="gray"
+                color="neutral"
                 variant="ghost"
                 to="https://github.com/Mittelblut9"
                 target="_blank"
@@ -28,9 +28,9 @@ export default {
         return {
             links: [
                 {
-                    label: useI18n().t('header.links.example.label'),
-                    icon: useI18n().t('header.links.example.icon'),
-                    to: useI18n().t('header.links.example.to')
+                    label: useT('header.links.example.label'),
+                    icon: useT('header.links.example.icon'),
+                    to: useT('header.links.example.to')
                 },
             ]
         };

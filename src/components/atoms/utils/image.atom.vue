@@ -2,7 +2,7 @@
     <NuxtImg
         :src="src"
         :alt="alt"
-        class="shadow-blackdayz-primary-shadow w-full"
+        class="blackdayz-primary-shadow w-full"
     />
 </template>
 

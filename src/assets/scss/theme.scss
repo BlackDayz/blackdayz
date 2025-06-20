@@ -1,0 +1,53 @@
+@layer base {
+
+    h1, .h1 {
+        font-size: var(--text-8xl);
+        line-height: 6rem;
+        color: var(--color-primary-500);
+        font-weight: var(--font-weight-bold);
+    }
+
+    h2, .h2 {
+        font-size: var(--text-8xl);
+        line-height: 6rem;
+        color: var(--color-gray-500);
+        font-weight: var(--font-weight-bold);
+    }
+
+    h3, .h3 {
+        font-size: var(--text-6xl);
+        line-height: 6rem;
+        color: var(--color-gray-500);
+        font-weight: var(--font-weight-bold);
+    }
+
+    p {
+        font-size: var(--text-xl);
+        font-weight: var(--font-weight-normal);
+        color: var(--color-gray-500);
+    }
+
+    img {
+        border-width: 5px;
+        border-color: var(--color-gray-900);
+        border-radius: 40px;
+    }
+
+    .blackdayz-primary-shadow {
+        box-shadow: 8px 8px 0px var(--color-primary-500);
+
+        &:hover {
+            box-shadow: 12px 12px 0px var(--color-primary-500);
+        }
+    }
+
+    .blackdayz-secondary-shadow {
+        box-shadow: 12px 12px 0px var(--color-primary-500);
+
+        &:hover {
+            box-shadow: 8px 8px 0px var(--color-primary-500);
+        }
+    }
+
+
+}

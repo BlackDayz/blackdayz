@@ -110,7 +110,4 @@ export default defineNuxtConfig({
     ogImage: {
         enabled: false
     },
-    tailwindcss: {
-        configPath: './tailwind.config.js',
-    },
 });

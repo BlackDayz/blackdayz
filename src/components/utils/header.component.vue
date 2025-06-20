@@ -1,19 +1,22 @@
 <template>
     <div class="mb-10">
         <UHeader
-            :links="links"
             :ui="{
-                wrapper: 'border-none my-5',
+                root: 'border-none my-5 bg-transparent',
                 container: 'flex items-center justify-between gap-3 h-[--header-height] max-w-[--header-width] mx-auto px-0 sm:px-0 lg:px-0',
             }"
         >
-            <template #panel>
-                <UNavigationTree :links="links" />
-            </template>
+            <UNavigationMenu
+                :items="links"
+                :ui="{
+                    item: 'px-1 py-[0.2rem] rounded-lg border border-gray-500 mx-3 transition-all duration-200 blackdayz-secondary-shadow',
+                }"
+            />
+
             <template #right>
-                <div class="header-right">
-                    <UNavigationTree :links="contactLink" />
-                </div>
+                <UNavigationMenu
+                    :items="contactLink"
+                />
             </template>
         </UHeader>
         <SpacerLinesAtom :short-lines="true" />
@@ -27,21 +30,21 @@ export default {
         return {
             links: [
                 {
-                    label: useI18n().t('header.links.example.label'),
-                    icon: useI18n().t('header.links.example.icon'),
-                    to: useI18n().t('header.links.example.to')
+                    label: useT('header.links.example.label'),
+                    icon: useT('header.links.example.icon'),
+                    to: useT('header.links.example.to')
                 },
                 {
-                    label: useI18n().t('header.links.example.label'),
-                    icon: useI18n().t('header.links.example.icon'),
-                    to: useI18n().t('header.links.example.to')
+                    label: useT('header.links.example.label'),
+                    icon: useT('header.links.example.icon'),
+                    to: useT('header.links.example.to')
                 },
             ],
             contactLink: [
                 {
-                    label: useI18n().t('header.links.example.label'),
-                    icon: useI18n().t('header.links.example.icon'),
-                    to: useI18n().t('header.links.example.to')
+                    label: useT('header.links.example.label'),
+                    icon: useT('header.links.example.icon'),
+                    to: useT('header.links.example.to')
                 },
             ],
         };
@@ -50,19 +53,22 @@ export default {
 </script>
 
 <style lang="scss">
-header ul li,
-.header-right {
-    box-shadow: 2px 2px 0 rgb(var(--color-gray-500));
-    padding: 0.2rem 1rem;
-    @apply rounded-lg border border-gray-500 mx-3 transition-all duration-200;
-
-    &:hover {
-        box-shadow: 4px 4px 0 rgb(var(--color-gray-500));
-        transform: translate(-2px, -2px);
+header {
+    a {
+        @apply text-gray-500 !important;
     }
-}
 
-header a {
-    @apply text-gray-500 !important;
+    ul li {
+        box-shadow: 2px 2px 0 var(--color-gray-500);
+
+        ::before {
+            background-color: transparent;
+        }
+
+        &:hover {
+            box-shadow: 4px 4px 0 var(--color-gray-500);
+            transform: translate(-2px, -2px);
+        }
+    }
 }
 </style>

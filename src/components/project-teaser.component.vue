@@ -2,7 +2,8 @@
     <div class="flex flex-col justify-center items-center gap-12">
         <div class="flex flex-wrap justify-center items-center gap-16">
             <ProjectBoxAtom
-                v-for="project in showProjects"
+                v-for="project in projects"
+                :key="project.projectId"
                 :project="project"
             />
         </div>
@@ -10,22 +11,14 @@
     </div>
 </template>
 
-<script lang="ts">
-import projects from '~/public/projects';
+<script lang="ts" setup>
+import * as projectData from '~/public/projects';
 
-export default {
-    name: 'ProjectTeaserComponent',
-    data() {
-        return {
-            projects: projects as ProjectInterface[],
-        };
-    },
-    computed: {
-        showProjects() {
-            if (window) {
-                return window.innerWidth > 1024 ? this.projects.slice(0, 4) : this.projects.slice(0, 2);
-            }
-        },
-    },
-};
+const projects = computed(() => {
+    if (!window) {
+        return [];
+    }
+
+    return window.innerWidth > 1024 ? projectData.default.slice(0, 4) : projectData.default.slice(0, 2);
+});
 </script>

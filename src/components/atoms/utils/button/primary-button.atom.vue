@@ -1,5 +1,7 @@
 <template>
-    <UButton @click="$emit('onClick', $event)">
+    <UButton
+        @click="$emit('onClick', $event)"
+    >
         {{ text }}
     </UButton>
 </template>
