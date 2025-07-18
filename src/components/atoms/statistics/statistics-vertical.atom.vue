@@ -1,13 +1,13 @@
 <template>
     <div>
-        <span class="h3 text-gray-900 grid max-w-fit relative text-right">
+        <span class="h3 grid max-w-fit relative text-right leading-14">
             {{ mainText }}
             <!-- skipcq: JS-0693 -->
             <span
-                class="text-gray-900 font-bold text-2xl before:content['_'] before:w-full before:block before:bg-gray-900 before:h-1 text-right leading-5"
+                class="font-bold text-2xl before:content['_'] before:w-full before:block before:bg-gray-900 before:h-1 text-right leading-5"
                 v-html="subtextArray"
             />
-            <span class="text-gray-900 font-bold text-lg [writing-mode:vertical-lr] absolute -right-7">{{ verticalText }}</span>
+            <span class="font-bold text-lg [writing-mode:vertical-lr] absolute -right-7">{{ verticalText }}</span>
         </span>
     </div>
 </template>

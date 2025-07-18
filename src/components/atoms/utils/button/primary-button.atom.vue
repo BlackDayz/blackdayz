@@ -1,5 +1,6 @@
 <template>
     <UButton
+        class="blackdayz-primary-shadow text-white"
         @click="$emit('onClick', $event)"
     >
         {{ text }}

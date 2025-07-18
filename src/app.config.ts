@@ -28,12 +28,12 @@ export default defineAppConfig({
                 {
                     color: 'primary',
                     variant: 'solid',
-                    class: 'cursor-pointer grid text-center text-primary bg-gray-500 blackdayz-primary-shadow px-12 hover:bg-gray-400 hover:blackdayz-primary-shadow-hover hover:-translate-x-1 hover:-translate-y-1 transition-all duration-200'
+                    class: 'cursor-pointer grid text-center text-white bg-gray-500 blackdayz-primary-shadow px-12 hover:bg-gray-400 transition-all duration-200'
                 },
                 {
                     color: 'secondary',
                     variant: 'solid',
-                    class: 'cursor-pointer grid text-center text-primary bg-gray-500 blackdayz-secondary-shadow px-12 hover:bg-gray-400 hover:blackdayz-secondary-shadow-hover hover:-translate-x-1 hover:-translate-y-1 transition-all duration-200'
+                    class: 'cursor-pointer grid text-center text-primary-500 bg-gray-500 blackdayz-secondary-shadow px-12 hover:bg-gray-400 transition-all duration-200'
                 }
             ],
         }

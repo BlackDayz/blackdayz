@@ -7,7 +7,7 @@
                 :project="project"
             />
         </div>
-        <PrimaryButtonAtom text="Mehr anzeigen" />
+        <SecondaryButtonAtom text="Mehr anzeigen" />
     </div>
 </template>
 

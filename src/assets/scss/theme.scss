@@ -1,5 +1,4 @@
 @layer base {
-
     h1, .h1 {
         font-size: var(--text-8xl);
         line-height: 6rem;
@@ -15,7 +14,7 @@
     }
 
     h3, .h3 {
-        font-size: var(--text-6xl);
+        font-size: var(--text-7xl);
         line-height: 6rem;
         color: var(--color-gray-500);
         font-weight: var(--font-weight-bold);
@@ -34,18 +33,21 @@
     }
 
     .blackdayz-primary-shadow {
-        box-shadow: 8px 8px 0px var(--color-primary-500);
+        box-shadow: 4px 4px 0px var(--color-primary-500);
+        transition: all 0.1s ease-in-out;
 
         &:hover {
-            box-shadow: 12px 12px 0px var(--color-primary-500);
+            box-shadow: 10px 10px 0px var(--color-primary-500);
+            transform: translate(-2px, -2px);
         }
     }
 
     .blackdayz-secondary-shadow {
-        box-shadow: 12px 12px 0px var(--color-primary-500);
+        box-shadow: 5px 2px 0 var(--color-red-100);
 
         &:hover {
-            box-shadow: 8px 8px 0px var(--color-primary-500);
+            box-shadow: 5px 5px 0px var(--color-gray-500);
+            transform: translate(-2px, -2px);
         }
     }
 
