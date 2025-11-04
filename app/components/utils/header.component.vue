@@ -16,12 +16,6 @@
                     @click="() => $router.push('/')"
                 />
             </template>
-            <UNavigationMenu
-                :items="links"
-                :ui="{
-                    item: 'px-1 py-[0.2rem] rounded-lg border border-gray-500 mx-3 transition-all duration-200 blackdayz-secondary-shadow',
-                }"
-            />
 
             <template #right>
                 <UNavigationMenu
@@ -37,24 +31,11 @@
 </template>
 
 <script lang="ts" setup>
-const links = [
-    {
-        label: useT('header.links.example.label'),
-        icon: useT('header.links.example.icon'),
-        to: useT('header.links.example.to')
-    },
-    {
-        label: useT('header.links.example.label'),
-        icon: useT('header.links.example.icon'),
-        to: useT('header.links.example.to')
-    },
-];
-
 const contactLink = [
     {
-        label: useT('header.links.example.label'),
-        icon: useT('header.links.example.icon'),
-        to: useT('header.links.example.to')
+        label: useT('header.links.contact.label'),
+        icon: useT('header.links.contact.icon'),
+        to: useT('header.links.contact.to')
     },
 ];
 </script>

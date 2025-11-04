@@ -1,9 +1,9 @@
 <template>
     <div class="grid lg:grid-cols-2 justify-center items-center sm:mx-10 xl:mx-44">
         <div class="flex">
-            <h2 class="h1 text-right">
+            <h3 class="h1 text-right">
                 Über mich
-            </h2>
+            </h3>
             <p class="mt-8 leading-5 ms-1">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
             </p>

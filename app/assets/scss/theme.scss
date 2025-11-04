@@ -20,6 +20,13 @@
         font-weight: var(--font-weight-bold);
     }
 
+    h4, .h4 {
+        font-size: var(--text-7xl);
+        line-height: 5rem;
+        color: var(--color-gray-800);
+        font-weight: var(--font-weight-bold);
+    }
+
     p {
         font-size: var(--text-xl);
         font-weight: var(--font-weight-normal);

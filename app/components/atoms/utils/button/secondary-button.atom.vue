@@ -2,6 +2,7 @@
     <UButton
         class="cursor-pointer"
         color="secondary"
+        :icon="icon"
         @click="emit('onClick', $event)"
     >
         {{ text }}
@@ -9,8 +10,9 @@
 </template>
 
 <script lang="ts" setup>
-const { text } = defineProps<{
+const { text, icon } = defineProps<{
     text: string;
+    icon?: string;
 }>();
 
 const emit = defineEmits<{

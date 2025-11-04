@@ -71,12 +71,7 @@
         class="my-48"
     >
         <div class="grid justify-center">
-            <div class="mb-14">
-                <H2Atom :text="useT('contact.title')" />
-            </div>
-            <div class="flex justify-center">
-                <ContactComponent />
-            </div>
+            <ContactComponent />
         </div>
     </div>
 
