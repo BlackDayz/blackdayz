@@ -12,13 +12,13 @@
 </template>
 
 <script lang="ts" setup>
-import * as projectData from '~/public/projects';
+import projectData from '~~/shared/utils/projects';
 
 const projects = computed(() => {
     if (!window) {
         return [];
     }
 
-    return window.innerWidth > 1024 ? projectData.default.slice(0, 4) : projectData.default.slice(0, 2);
+    return window.innerWidth > 1024 ? projectData.slice(0, 4) : projectData.slice(0, 2);
 });
 </script>

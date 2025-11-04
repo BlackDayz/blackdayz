@@ -1,4 +1,4 @@
-export default [
+const projectData = [
     {
         projectId: 1,
         name: 'Most Scuffed Episode 5 - Jopardy',
@@ -55,3 +55,5 @@ export default [
         ]
     }
 ];
+
+export default projectData;

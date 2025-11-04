@@ -4,7 +4,7 @@ import { generateJsonTranslations } from './scripts/i18n/loadYamlTranslations';
 export default defineNuxtConfig({
     modules: [
         '@nuxtjs/i18n',
-        '@nuxt/ui-pro',
+        '@nuxt/ui',
         '@nuxt/image',
         '@nuxt/fonts',
         '@sentry/nuxt/module',
@@ -47,7 +47,6 @@ export default defineNuxtConfig({
             sentryDsn: process.env.SENTRY_DSN,
         }
     },
-    srcDir: 'src',
     extensions: ['ts', 'js'],
     devServer: {
         https: false,
@@ -90,7 +89,6 @@ export default defineNuxtConfig({
         ],
     },
     i18n: {
-        lazy: true,
         langDir: 'locales/.generated/',
         strategy: 'no_prefix',
         defaultLocale: 'de-DE',
