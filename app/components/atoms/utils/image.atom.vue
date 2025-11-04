@@ -2,7 +2,11 @@
     <NuxtImg
         :src="src"
         :alt="alt"
-        class="blackdayz-primary-shadow w-full"
+        :class="{
+            [`h-${height}`]: height !== 'auto',
+            [`w-${width}`]: width !== 'auto',
+            'blackdayz-primary-shadow': showShadow,
+        }"
     />
 </template>
 
@@ -17,6 +21,18 @@ export default {
         alt: {
             type: String,
             required: true,
+        },
+        height: {
+            type: [String, Number],
+            default: 'auto',
+        },
+        width: {
+            type: [String, Number],
+            default: 'auto',
+        },
+        showShadow: {
+            type: Boolean,
+            default: true,
         },
     },
 };

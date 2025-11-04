@@ -2,8 +2,8 @@
     <div class="flex flex-col justify-center items-center gap-12">
         <div class="flex flex-wrap justify-center items-center gap-16">
             <ProjectBoxAtom
-                v-for="project in projects"
-                :key="project.projectId"
+                v-for="(project, index) in projects"
+                :key="index"
                 :project="project"
             />
         </div>

@@ -1,21 +1,19 @@
 <template>
     <UButton
+        class="cursor-pointer"
         color="secondary"
-        @click="$emit('onClick', $event)"
+        @click="emit('onClick', $event)"
     >
         {{ text }}
     </UButton>
 </template>
 
-<script lang="ts">
-export default {
-    name: 'PrimaryButtonAtom',
-    props: {
-        text: {
-            type: String,
-            required: true,
-        },
-    },
-    emits: ['onClick'],
-};
+<script lang="ts" setup>
+const { text } = defineProps<{
+    text: string;
+}>();
+
+const emit = defineEmits<{
+    (e: 'onClick', event: MouseEvent): void;
+}>();
 </script>

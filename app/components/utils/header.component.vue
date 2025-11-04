@@ -7,11 +7,12 @@
             }"
         >
             <template #left>
-                <NuxtImg
-                    width="130"
+                <ImageAtom
+                    width="32"
                     class="rounded-none cursor-pointer border-none"
-                    :src="logoLink"
+                    src="/img/about/Blackdayz_Logo.svg"
                     alt="BlackDayz Logo"
+                    :show-shadow="false"
                     @click="() => $router.push('/')"
                 />
             </template>
@@ -36,8 +37,6 @@
 </template>
 
 <script lang="ts" setup>
-const logoLink = 'https://fra.cloud.appwrite.io/v1/storage/buckets/6879aa0700302514c676/files/6879aa1500097ff11605/preview?project=6879a9e8002c737fb9b7&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbklkIjoiNjg3OWFhMWMxZjk4OGI2YTU3MTUiLCJyZXNvdXJjZUlkIjoiNjg3OWFhMDcwMDMwMjUxNGM2NzY6Njg3OWFhMTUwMDA5N2ZmMTE2MDUiLCJyZXNvdXJjZVR5cGUiOiJmaWxlcyIsInJlc291cmNlSW50ZXJuYWxJZCI6IjI2NTMyOjEiLCJleHAiOjkuMjIzMzcyMDM4NjA3NThlKzE4fQ.JBQkbXIi_MIKodBOv2LxNnciLHOeqtUkPafQpX7RFHQ';
-
 const links = [
     {
         label: useT('header.links.example.label'),

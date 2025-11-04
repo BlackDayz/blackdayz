@@ -4,18 +4,24 @@
             <H1Atom :text="useT('top.title')" />
             <PAtom :text="useT('top.description')" />
             <div class="grid w-full sm:flex gap-4 mt-9 text-center">
-                <PrimaryButtonAtom
-                    text="Button"
-                />
-                <PrimaryButtonAtom
-                    text="Button"
-                />
+                <NuxtLink to="#homepage-contact">
+                    <PrimaryButtonAtom
+                        :text="useT('top.buttons.contact')"
+                    />
+                </NuxtLink>
+                <NuxtLink to="#homepage-about">
+                    <PrimaryButtonAtom
+                        :text="useT('top.buttons.about')"
+                    />
+                </NuxtLink>
             </div>
         </div>
         <div class="lg:w-1/2">
             <ImageAtom
-                src="https://i.ytimg.com/vi/KSpwlGWD51s/maxresdefault.jpg"
+                src="/img/about/Lutzi_Htnh_BENE_BTS.jpg"
                 alt="Image"
+                height="full"
+                width="full"
             />
         </div>
     </div>
@@ -23,7 +29,7 @@
         <SpacerLinesAtom />
     </div>
 
-    <div class="flex">
+    <div class="flex justify-center">
         <ObsVideoComponent />
     </div>
 
@@ -49,23 +55,32 @@
         <ProjectTeaserComponent />
     </div>
 
-    <div class="my-48">
+    <div
+        id="homepage-about"
+        class="my-48"
+    >
         <AboutComponent />
     </div>
 
     <div class="h-20 grid items-center">
         <SpacerLinesAtom />
     </div>
+
+    <div
+        id="homepage-contact"
+        class="my-48"
+    >
+        <div class="grid justify-center">
+            <div class="mb-14">
+                <H2Atom :text="useT('contact.title')" />
+            </div>
+            <div class="flex justify-center">
+                <ContactComponent />
+            </div>
+        </div>
+    </div>
+
+    <div class="h-20 grid items-center">
+        <SpacerLinesAtom />
+    </div>
 </template>
-
-<script>
-export default {
-    name: 'HomePage',
-    data() {
-        return {
-            text: 'Lorem ipsum dolor sit amet'
-        };
-    },
-
-};
-</script>

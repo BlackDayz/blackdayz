@@ -1,58 +1,71 @@
-const projectData = [
+import { ProjectTags } from './enum';
+
+const projectData: ProjectInterface[] = [
     {
-        projectId: 1,
-        name: 'Most Scuffed Episode 5 - Jopardy',
-        teaser: 'This is a teaser for project 1',
+        name: 'Mittlay',
+        teaser: 'All-in-one Stream Overlay Editor für Twitch.',
         images: [
             {
                 alt: '',
                 src: '/img/mostscuffed.jpg'
             }
-        ]
+        ],
+        tags: [ProjectTags.WEB_DEVELOPMENT]
     },
     {
-        projectId: 2,
-        name: 'Most Scuffed Episode 8 - The Floor',
-        teaser: 'This is a teaser for project 1',
+        name: 'PRO-CYCLIST',
+        teaser: 'All-in-one Stream Overlay Editor für Twitch.',
         images: [
             {
                 alt: '',
                 src: '/img/mostscuffed.jpg'
             }
-        ]
+        ],
+        tags: [ProjectTags.VIDEO_PRODUCTION]
     },
     {
-        projectId: 2,
-        name: 'Most Scuffed Episode 8 - The Floor',
+        name: 'Most Scuffed Episode 7 - Der Klügste Bleibt',
         teaser: 'This is a teaser for project 1',
         images: [
             {
                 alt: '',
                 src: '/img/mostscuffed.jpg'
             }
-        ]
+        ],
+        tags: [ProjectTags.WEB_DEVELOPMENT]
     },
     {
-        projectId: 2,
-        name: 'Most Scuffed Episode 8 - The Floor',
+        name: 'Most Scuffed Episode 6 - Jeopardy',
         teaser: 'This is a teaser for project 1',
         images: [
             {
                 alt: '',
                 src: '/img/mostscuffed.jpg'
             }
-        ]
+        ],
+        tags: [ProjectTags.WEB_DEVELOPMENT]
     },
     {
-        projectId: 2,
-        name: 'Most Scuffed Episode 8 - The Floor',
+        name: 'Most Scuffed Episode 5 - Community',
         teaser: 'This is a teaser for project 1',
         images: [
             {
                 alt: '',
                 src: '/img/mostscuffed.jpg'
             }
-        ]
+        ],
+        tags: [ProjectTags.WEB_DEVELOPMENT]
+    },
+    {
+        name: 'Most Scuffed Episode 4 - Der Klügste Bleibt',
+        teaser: 'This is a teaser for project 1',
+        images: [
+            {
+                alt: '',
+                src: '/img/mostscuffed.jpg'
+            }
+        ],
+        tags: [ProjectTags.WEB_DEVELOPMENT]
     }
 ];
 

@@ -1,3 +1,6 @@
 top:
   title: "BlackDayz_"
   description: "Web Entwicklung & Video Produktion"
+  buttons:
+    contact: "Kontakt"
+    about: "Über mich"

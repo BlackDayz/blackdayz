@@ -1,3 +1,4 @@
-export enum exampleEnum {
-    Example = 'Example',
+export enum ProjectTags {
+    WEB_DEVELOPMENT,
+    VIDEO_PRODUCTION,
 }

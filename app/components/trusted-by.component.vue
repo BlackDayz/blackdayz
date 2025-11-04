@@ -4,31 +4,37 @@
         <ClientsShowcaseAtom
             :clients="[
                 {
-                    image: 'https://i.ytimg.com/vi/KSpwlGWD51s/maxresdefault.jpg',
+                    image: '/img/clients/rumathra.png',
                     name: 'Rumathra',
+                    link: 'https://twitch.tv/rumathra',
                 },
                 {
-                    image: 'https://i.ytimg.com/vi/KSpwlGWD51s/maxresdefault.jpg',
+                    image: '/img/clients/htnh.svg',
                     name: 'htnh',
+                    link: 'https://htnh.de',
                 },
                 {
-                    image: 'https://i.ytimg.com/vi/KSpwlGWD51s/maxresdefault.jpg',
-                    name: 'Rumathra',
-                },
-
-                {
-                    image: 'https://i.ytimg.com/vi/KSpwlGWD51s/maxresdefault.jpg',
-                    name: 'Rumathra',
+                    image: '/img/clients/geilevideossos.png',
+                    name: 'Geilevideossos',
+                    link: 'https://twitch.tv/geilevideossos',
                 },
 
                 {
-                    image: 'https://i.ytimg.com/vi/KSpwlGWD51s/maxresdefault.jpg',
-                    name: 'Rumathra',
+                    image: '/img/clients/trymacs.jpg',
+                    name: 'Trymacs',
+                    link: 'https://twitch.tv/trymacs',
                 },
 
                 {
-                    image: 'https://i.ytimg.com/vi/KSpwlGWD51s/maxresdefault.jpg',
-                    name: 'Rumathra',
+                    image: '/img/clients/chefstrobel.jpg',
+                    name: 'Chefstrobel',
+                    link: 'https://twitch.tv/chefstrobel',
+                },
+
+                {
+                    image: '/img/clients/varion.jpg',
+                    name: 'Varion',
+                    link: 'https://twitch.tv/varion',
                 },
             ]"
         />

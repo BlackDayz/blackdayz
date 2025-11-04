@@ -1,13 +1,16 @@
+import type { ProjectTags } from './enum';
+
 export interface ClientShowcaseInterface {
     name: string;
     image: string;
+    link: string;
 }
 
 export interface ProjectInterface {
-    projectId: number;
     name: string;
     teaser: string;
     images: ProjectImageInterface[];
+    tags: ProjectTags[];
 }
 
 export interface ProjectImageInterface {

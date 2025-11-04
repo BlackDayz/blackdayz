@@ -7,13 +7,13 @@
             class="justify-self-start"
             :class="{ 'w-3/5': shortLines, 'w-3/4': !shortLines }"
         >
-            <hr class="border-[2px] border-black rounded-lg">
+            <hr class="border-2 border-black rounded-lg">
         </div>
         <div
             class="justify-self-end mt-2"
             :class="{ 'w-3/5': shortLines, 'w-3/4': !shortLines }"
         >
-            <hr class="border-[2px] border-black rounded-lg">
+            <hr class="border-2 border-black rounded-lg">
         </div>
     </div>
 </template>
