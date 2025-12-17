@@ -4,35 +4,35 @@
         <ClientsShowcaseAtom
             :clients="[
                 {
-                    image: '/img/clients/rumathra.png',
+                    image: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/Rumathra.png',
                     name: 'Rumathra',
                     link: 'https://twitch.tv/rumathra',
                 },
                 {
-                    image: '/img/clients/htnh.svg',
+                    image: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/htnh.png',
                     name: 'htnh',
                     link: 'https://htnh.de',
                 },
                 {
-                    image: '/img/clients/geilevideossos.png',
+                    image: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/geilevideossos.png',
                     name: 'Geilevideossos',
                     link: 'https://twitch.tv/geilevideossos',
                 },
 
                 {
-                    image: '/img/clients/trymacs.jpg',
+                    image: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/trymacs.jpg',
                     name: 'Trymacs',
                     link: 'https://twitch.tv/trymacs',
                 },
 
                 {
-                    image: '/img/clients/chefstrobel.jpg',
+                    image: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/Chefstrobel.jpg',
                     name: 'Chefstrobel',
                     link: 'https://twitch.tv/chefstrobel',
                 },
 
                 {
-                    image: '/img/clients/varion.jpg',
+                    image: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/varion.jpg',
                     name: 'Varion',
                     link: 'https://twitch.tv/varion',
                 },
