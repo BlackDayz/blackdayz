@@ -25,13 +25,13 @@
             />
         </div>
     </div>
-    <div class="h-56 grid items-center">
+    <!-- <div class="h-56 grid items-center">
         <SpacerLinesAtom />
     </div>
 
     <div class="flex justify-center">
         <ObsVideoComponent />
-    </div>
+    </div> -->
 
     <div class="h-56 grid items-center">
         <SpacerLinesAtom />

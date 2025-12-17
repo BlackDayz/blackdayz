@@ -33,10 +33,48 @@
             </div>
         </div>
         <div class="mb-10 mx-3">
-            <SecondaryButtonAtom
-                text="Mehr anzeigen"
-                class="w-full"
-            />
+            <UModal
+                :title="project.name"
+                :ui="{
+                    content: 'max-w-3xl',
+                    title: 'text-4xl',
+                }"
+            >
+                <SecondaryButtonAtom
+                    text="Mehr anzeigen"
+                    class="w-full"
+                />
+                <template #body>
+                    <div class="space-y-4">
+                        <div>
+                            <span
+                                v-for="tag in project.tags"
+                                :key="tag"
+                                class="px-2 py-1 text-xs font-semibold rounded-full bg-gray-200 text-gray-800"
+                            >
+                                {{ useT(`project.tags.${tag}`) }}
+                            </span>
+                        </div>
+                        <p
+                            class="leading-normal text-white"
+                            v-html="project.description"
+                        />
+                        <div class="my-16">
+                            <SpacerLinesAtom border-color="white" />
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <ImageAtom
+                                v-for="(image, index) in project.images"
+                                :key="index"
+                                :src="image.src"
+                                :alt="image.alt"
+                                class="rounded-2xl object-cover border-none w-full mb-4"
+                                :show-shadow="false"
+                            />
+                        </div>
+                    </div>
+                </template>
+            </UModal>
         </div>
     </div>
 </template>

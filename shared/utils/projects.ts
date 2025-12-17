@@ -10,7 +10,9 @@ const projectData: ProjectInterface[] = [
                 src: '/img/mostscuffed.jpg'
             }
         ],
-        tags: [ProjectTags.WEB_DEVELOPMENT]
+        tags: [ProjectTags.WEB_DEVELOPMENT],
+        link: '',
+        description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.'
     },
     {
         name: 'PRO-CYCLIST',
@@ -21,7 +23,9 @@ const projectData: ProjectInterface[] = [
                 src: '/img/mostscuffed.jpg'
             }
         ],
-        tags: [ProjectTags.VIDEO_PRODUCTION]
+        tags: [ProjectTags.VIDEO_PRODUCTION],
+        link: '',
+        description: ''
     },
     {
         name: 'Most Scuffed Episode 7 - Der Klügste Bleibt',
@@ -32,7 +36,9 @@ const projectData: ProjectInterface[] = [
                 src: '/img/mostscuffed.jpg'
             }
         ],
-        tags: [ProjectTags.WEB_DEVELOPMENT]
+        tags: [ProjectTags.WEB_DEVELOPMENT],
+        link: '',
+        description: ''
     },
     {
         name: 'Most Scuffed Episode 6 - Jeopardy',
@@ -43,7 +49,9 @@ const projectData: ProjectInterface[] = [
                 src: '/img/mostscuffed.jpg'
             }
         ],
-        tags: [ProjectTags.WEB_DEVELOPMENT]
+        tags: [ProjectTags.WEB_DEVELOPMENT],
+        link: '',
+        description: ''
     },
     {
         name: 'Most Scuffed Episode 5 - Community',
@@ -54,7 +62,9 @@ const projectData: ProjectInterface[] = [
                 src: '/img/mostscuffed.jpg'
             }
         ],
-        tags: [ProjectTags.WEB_DEVELOPMENT]
+        tags: [ProjectTags.WEB_DEVELOPMENT],
+        link: '',
+        description: ''
     },
     {
         name: 'Most Scuffed Episode 4 - Der Klügste Bleibt',
@@ -65,7 +75,9 @@ const projectData: ProjectInterface[] = [
                 src: '/img/mostscuffed.jpg'
             }
         ],
-        tags: [ProjectTags.WEB_DEVELOPMENT]
+        tags: [ProjectTags.WEB_DEVELOPMENT],
+        link: '',
+        description: ''
     }
 ];
 

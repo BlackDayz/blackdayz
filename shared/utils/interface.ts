@@ -11,6 +11,8 @@ export interface ProjectInterface {
     teaser: string;
     images: ProjectImageInterface[];
     tags: ProjectTags[];
+    link: string;
+    description: string;
 }
 
 export interface ProjectImageInterface {
