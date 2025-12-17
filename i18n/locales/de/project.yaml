@@ -2,3 +2,7 @@ project:
   tags:
     0: "Webentwicklung"
     1: "Video Produktion"
+  teaser:
+    showMore: "Mehr Projekte anzeigen"
+  box:
+    show: "Projekt anzeigen"

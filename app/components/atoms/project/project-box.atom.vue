@@ -21,6 +21,10 @@
                     class="text-black text-2xl font-bold leading-tight mx-1"
                     v-html="project.name"
                 />
+                <p
+                    class="text-gray-700 mb-4 mt-2"
+                    v-html="project.teaser"
+                />
             </div>
             <div class="my-2">
                 <span
@@ -41,7 +45,7 @@
                 }"
             >
                 <SecondaryButtonAtom
-                    text="Mehr anzeigen"
+                    :text="useT('project.box.show')"
                     class="w-full"
                 />
                 <template #body>

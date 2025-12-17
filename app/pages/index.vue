@@ -18,7 +18,7 @@
         </div>
         <div class="lg:w-1/2">
             <ImageAtom
-                src="/img/about/Lutzi_Htnh_BENE_BTS.jpg"
+                src="https://cdn-homepage.blackdayz.de/api/cdn/download/images/Lutzi_Htnh_BENE_BTS.jpg"
                 alt="Image"
                 height="full"
                 width="full"
