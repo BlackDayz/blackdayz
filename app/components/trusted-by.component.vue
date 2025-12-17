@@ -9,18 +9,18 @@
                     link: 'https://twitch.tv/rumathra',
                 },
                 {
-                    image: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/htnh.png',
+                    image: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/HTNH.png',
                     name: 'htnh',
                     link: 'https://htnh.de',
                 },
                 {
-                    image: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/geilevideossos.png',
+                    image: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/Geilevideossos.png',
                     name: 'Geilevideossos',
                     link: 'https://twitch.tv/geilevideossos',
                 },
 
                 {
-                    image: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/trymacs.jpg',
+                    image: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/Trymacs.jpg',
                     name: 'Trymacs',
                     link: 'https://twitch.tv/trymacs',
                 },
@@ -32,7 +32,7 @@
                 },
 
                 {
-                    image: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/varion.jpg',
+                    image: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/Varion.jpg',
                     name: 'Varion',
                     link: 'https://twitch.tv/varion',
                 },

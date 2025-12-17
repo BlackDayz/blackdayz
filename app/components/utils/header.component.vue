@@ -10,7 +10,7 @@
                 <ImageAtom
                     width="32"
                     class="rounded-none cursor-pointer border-none"
-                    src="/img/about/Blackdayz_Logo.svg"
+                    src="https://cdn-homepage.blackdayz.de/api/cdn/download/images/BlackDayz_Logo.png"
                     alt="BlackDayz Logo"
                     :show-shadow="false"
                     @click="() => $router.push('/')"
