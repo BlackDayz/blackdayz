@@ -60,7 +60,7 @@
                             </span>
                         </div>
                         <p
-                            class="leading-normal text-white"
+                            class="leading-normal"
                             v-html="project.description"
                         />
                         <div class="my-16">
