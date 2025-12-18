@@ -63,6 +63,17 @@
                             class="leading-normal"
                             v-html="project.description"
                         />
+                        <p>
+                            <a
+                                v-if="project.link"
+                                :href="project.link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="text-blue-500 underline"
+                            >
+                                {{ project.link }}
+                            </a>
+                        </p>
                         <div class="my-16">
                             <SpacerLinesAtom border-color="white" />
                         </div>
