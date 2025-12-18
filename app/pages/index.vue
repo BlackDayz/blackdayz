@@ -38,9 +38,9 @@
     </div>
 
     <div class="grid gap-40">
-        <div class="flex">
+        <!-- <div class="flex">
             <StatisticsComponent />
-        </div>
+        </div> -->
 
         <div class="flex justify-center">
             <TrustedByComponent />
