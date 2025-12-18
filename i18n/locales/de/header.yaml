@@ -3,4 +3,4 @@ header:
         contact:
             label: "Kontakt"
             icon: "mdi-email-outline"
-            to: "#homepage-contact"
+            to: "/#homepage-contact"
