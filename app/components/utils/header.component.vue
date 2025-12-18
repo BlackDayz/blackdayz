@@ -4,6 +4,7 @@
             :ui="{
                 root: 'border-none my-5 bg-transparent',
                 container: 'flex items-center justify-between gap-3 h-[--header-height] max-w-[--header-width] mx-auto px-0 sm:px-0 lg:px-0',
+                toggle: 'hidden',
             }"
         >
             <template #left>
