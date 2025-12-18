@@ -2,11 +2,11 @@
     <div class="grid lg:grid-cols-2 justify-center items-center sm:mx-10 xl:mx-44 px-2">
         <div class="flex flex-col lg:flex-row">
             <h3
-                class="h1 text-left lg:text-right"
+                class="h1 text-left lg:text-right leading-20"
                 v-html="useT('about.title')"
             />
             <p
-                class="mt-8 leading-5 ms-1"
+                class="mt-8 leading-normal ms-2"
                 v-html="useT('about.description')"
             />
         </div>
@@ -14,7 +14,7 @@
             <div>
                 <ImageAtom
                     src="https://cdn-homepage.blackdayz.de/api/cdn/download/images/AboutMe.jpg"
-                    alt="About us"
+                    alt="About me"
                     class="w-[320px]! h-[450px] object-cover"
                 />
             </div>

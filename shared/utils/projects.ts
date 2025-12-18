@@ -32,6 +32,31 @@ const projectData: ProjectInterface[] = [
         description: 'Einfach mal machen – das war das Motto fürs Shooting. Also kurz überlegt, in welche Richtung es gehen soll, die Route für die Rennradfahrer geplant, die Crew zusammengetrommelt – und los ging’s! 🚴‍♂️💨 Nach ein paar freiwilligen (und ein, zwei nicht ganz so freiwilligen) Standortwechseln – ein älterer Herr hatte wohl einfach keinen guten Tag – war das Ding am Ende des Tages im Kasten. Mit einer Menge Learnings, was man beim nächsten Mal besser (oder gar nicht 😅) machen sollte, ging’s dann in die Postproduktion.'
     },
     {
+        name: 'Ab geht die Lutzi 2024 & 2025',
+        teaser: 'FOH Kamera Operator für das dreitägige Festival.',
+        images: [
+            {
+                alt: '',
+                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/Homepage_TitleImg.jpg'
+            },
+            {
+                alt: '',
+                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/dieLutzi25_BTS_Donnerstag-2.jpg'
+            },
+            {
+                alt: '',
+                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/Lutzi_Htnh_BENE_BTS-3.jpg'
+            },
+            {
+                alt: '',
+                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/Lutzi_Htnh_SAMSTAG_BTS-37.jpg'
+            },
+        ],
+        tags: [ProjectTags.FESTIVALS],
+        link: 'https://www.instagram.com/abgehtdielutzifestival/',
+        description: 'Als FOH Kamera Operator war ich verantwortlich für die Nahaufnahmen der Künstler auf der Bühne. Das Bild wurde live auf zwei große LED Wände übertragen. Eng mit der Regie verbunden, sorgte ich dafür, dass die besten Momente der Auftritte festgehalten wurden.'
+    },
+    {
         name: 'Grünes Feuer | Dokumentation 2023',
         teaser: '',
         images: [

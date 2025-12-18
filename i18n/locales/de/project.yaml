@@ -2,6 +2,7 @@ project:
   tags:
     0: "Webentwicklung"
     1: "Video Produktion"
+    2: "Festivals"
   teaser:
     showMore: "Mehr Projekte anzeigen"
     showLess: "Weniger Projekte anzeigen"
