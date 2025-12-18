@@ -1,5 +1,5 @@
 <template>
-    <UFooter :links="links">
+    <UFooter>
         <template #left>
             <span
                 v-text="useT('footer.copyright', {
@@ -9,7 +9,6 @@
         </template>
 
         <template #right>
-            <UColorModeButton />
             <UButton
                 icon="i-simple-icons-github"
                 color="neutral"
@@ -20,20 +19,3 @@
         </template>
     </UFooter>
 </template>
-
-<script lang="ts">
-export default {
-    name: 'FooterComponent',
-    data() {
-        return {
-            links: [
-                {
-                    label: useT('header.links.example.label'),
-                    icon: useT('header.links.example.icon'),
-                    to: useT('header.links.example.to')
-                },
-            ]
-        };
-    }
-};
-</script>
