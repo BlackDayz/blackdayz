@@ -24,8 +24,24 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: '/img/mostscuffed.jpg'
-            }
+                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/RennradShooting_BTS-00047.jpg'
+            },
+            {
+                alt: '',
+                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/RennradShooting_BTS-00049.jpg'
+            },
+            {
+                alt: '',
+                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/RennradShooting_00002.jpg'
+            },
+            {
+                alt: '',
+                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/RennradShooting_00021.jpg'
+            },
+            {
+                alt: '',
+                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/RennradShooting_00012.jpg'
+            },
         ],
         tags: [ProjectTags.VIDEO_PRODUCTION],
         link: 'https://www.instagram.com/p/DQwlU_ZjDHw/',
@@ -75,7 +91,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: '/img/mostscuffed.jpg'
+                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/Most Scuffed Episode 7.jpg'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -101,7 +117,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: '/img/mostscuffed.jpg'
+                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/Most Scuffed Episode 5.jpg'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -114,7 +130,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: '/img/mostscuffed.jpg'
+                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/Most Scuffed.jpg'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
