@@ -1,5 +1,5 @@
 <template>
-    <div class="grid gap-16 lg:gap-0 lg:flex items-center mt-20">
+    <div class="grid gap-16 px-2 lg:gap-0 lg:flex items-center mt-20">
         <div class="lg:w-1/2 grid gap-6">
             <H1Atom :text="useT('top.title')" />
             <PAtom :text="useT('top.description')" />

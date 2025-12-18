@@ -1,16 +1,31 @@
 @layer base {
     h1, .h1 {
-        font-size: var(--text-8xl);
+        font-size: var(--text-5xl);
         line-height: 6rem;
         color: var(--color-primary-500);
         font-weight: var(--font-weight-bold);
+
+        @media (min-width: 768px) {
+            font-size: var(--text-8xl);
+            line-height: 7rem;
+        }
+
+         @media (min-width: 425px) {
+            font-size: var(--text-7xl);
+            line-height: 7rem;
+        }
     }
 
     h2, .h2 {
-        font-size: var(--text-8xl);
+        font-size: var(--text-7xl);
         line-height: 6rem;
         color: var(--color-gray-500);
         font-weight: var(--font-weight-bold);
+
+        @media (min-width: 768px) {
+            font-size: var(--text-8xl);
+            line-height: 7rem;
+        }
     }
 
     h3, .h3 {
