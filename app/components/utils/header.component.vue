@@ -10,7 +10,7 @@
             <template #left>
                 <ImageAtom
                     width="32"
-                    class="rounded-none cursor-pointer border-none"
+                    class="rounded-none cursor-pointer border-none ms-3 lg:ms-0"
                     src="https://cdn-homepage.blackdayz.de/api/cdn/download/images/BlackDayz_Logo.png"
                     alt="BlackDayz Logo"
                     :show-shadow="false"
