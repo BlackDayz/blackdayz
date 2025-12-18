@@ -12,6 +12,10 @@ const projectData: ProjectInterface[] = [
             {
                 alt: '',
                 src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/mittlay_editor.jpeg'
+            },
+            {
+                alt: '',
+                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/Einstellungen Vorschau.png'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
