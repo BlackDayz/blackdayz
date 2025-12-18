@@ -11,7 +11,7 @@
         <div class="flex justify-center">
             <div>
                 <ImageAtom
-                    src="/img/about/Lutzi_Htnh_BENE_BTS.jpg"
+                    src="https://cdn-homepage.blackdayz.de/api/cdn/download/images/AboutMe.jpg"
                     alt="About us"
                     class="w-[320px]! h-[450px] object-cover"
                 />

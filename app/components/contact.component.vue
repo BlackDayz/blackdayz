@@ -10,6 +10,7 @@
             icon="mdi:email"
             :text="useT('contact.button.email')"
             class="flex py-3"
+            :href="'mailto:' + useT('contact.email')"
         />
     </div>
 </template>
