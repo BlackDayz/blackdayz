@@ -51,7 +51,7 @@
         <SpacerLinesAtom />
     </div>
 
-    <div>
+    <div id="project-teaser-anchor">
         <ProjectTeaserComponent />
     </div>
 

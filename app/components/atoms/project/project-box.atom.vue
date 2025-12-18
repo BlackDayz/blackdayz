@@ -2,7 +2,7 @@
     <div class="border-gray-700 border-4 w-[280px] h-[520px] blackdayz-primary-shadow rounded-[39px] flex flex-col overflow-hidden">
         <div
             class="shrink-0 p-3"
-            style="height: 60%"
+            style="height: 55%"
         >
             <ImageAtom
                 :src="project.images[0].src"
@@ -13,8 +13,8 @@
             />
         </div>
         <div
-            class="grow flex flex-col justify-between p-3 pt-0"
-            style="height: 40%"
+            class="grow flex flex-col justify-between px-3 py-1 pt-0"
+            style="height: 45%"
         >
             <div>
                 <h3
@@ -22,7 +22,7 @@
                     v-html="project.name"
                 />
                 <p
-                    class="text-gray-700 mb-4 mt-2"
+                    class="text-gray-700 mb-4 mt-2 text-sm leading-normal mx-1"
                     v-html="project.teaser"
                 />
             </div>
@@ -30,7 +30,7 @@
                 <span
                     v-for="tag in project.tags"
                     :key="tag"
-                    class="px-2 py-1 text-xs font-semibold rounded-full bg-gray-200 text-gray-800"
+                    class="px-2 text-xs font-semibold rounded-full bg-gray-200 text-gray-800"
                 >
                     {{ useT(`project.tags.${tag}`) }}
                 </span>

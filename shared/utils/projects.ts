@@ -32,7 +32,7 @@ const projectData: ProjectInterface[] = [
         description: 'Einfach mal machen – das war das Motto fürs Shooting. Also kurz überlegt, in welche Richtung es gehen soll, die Route für die Rennradfahrer geplant, die Crew zusammengetrommelt – und los ging’s! 🚴‍♂️💨 Nach ein paar freiwilligen (und ein, zwei nicht ganz so freiwilligen) Standortwechseln – ein älterer Herr hatte wohl einfach keinen guten Tag – war das Ding am Ende des Tages im Kasten. Mit einer Menge Learnings, was man beim nächsten Mal besser (oder gar nicht 😅) machen sollte, ging’s dann in die Postproduktion.'
     },
     {
-        name: 'Grünes Feuer, Philosophie der Wildnis | Dokumentation 2023',
+        name: 'Grünes Feuer | Dokumentation 2023',
         teaser: '',
         images: [
             {
@@ -45,7 +45,7 @@ const projectData: ProjectInterface[] = [
         description: 'Die Philosophie der Wildnis, Was ist Wildnis? Brauchen wir sie noch? Und wo finden wir sie? Ein junges Filmteam nähert sich dieser Frage an, indem es sich in Schweden der Wildnis aussetzt – aber auch, indem es ausgewiesene Expert*innen zu Wort kommen lässt. So führt die Philosophin Christina Pinsdorf durch die Geschichte der Wildnis, aber auch Protagonisten wie der Polarforscher Arved Fuchs und ZDF-TerraX-Redakteur Axel Gomille kommen zu Wort.'
     },
     {
-        name: 'Most Scuffed Episode 7 - Der Klügste Bleibt',
+        name: 'Most Scuffed 7 - Der Klügste Bleibt',
         teaser: 'Die weitbekannte Twitch Quizshow Most Scuffed',
         images: [
             {
@@ -58,7 +58,7 @@ const projectData: ProjectInterface[] = [
         description: 'In dieser Gameshow dreht sich alles um die spannende Frage: Wer hat das geringste Allgemeinwissen? Oder anders gesagt: "Der Dümmste fliegt". Die Teilnehmer treten in mehreren Runden gegeneinander an und beantworten unterschiedliche Fragen. Am Ende jeder Runde scheidet der Spieler mit den meisten Stimmen aus. In dieser Episode gibt es jedoch eine besondere Neuerung: die Redemption Phase. Hier haben ausgeschiedene Spieler die Möglichkeit, sich eine zweite Chance zu erkämpfen. Wer in dieser Phase eine festgelegte Anzahl von Fragen korrekt beantwortet, kann einmalig dem Ausscheiden entgehen und ins Spiel zurückkehren.'
     },
     {
-        name: 'Most Scuffed Episode 6 - Jeopardy',
+        name: 'Most Scuffed 6 - Jeopardy',
         teaser: 'Die weitbekannte Twitch Quizshow Most Scuffed',
         images: [
             {
@@ -71,7 +71,7 @@ const projectData: ProjectInterface[] = [
         description: 'In dieser Gameshow traten drei Streamer gegeneinander an, um Fragen auf einem Board zu beantworten. Jede Frage war mit einer bestimmten Punktzahl verknüpft, die sie für richtige Antworten erhielten, während falsche Antworten Minuspunkte brachten. Am Ende der zweiten Runde schied derjenige mit den wenigsten Punkten aus. Im Finale wurde eine kurze Version von „Der Klügste bleibt“ gespielt, bei der der Spieler mit null Leben als Erster ausschied. Am Ende konnte sich Trymacs den Sieg sichern.'
     },
     {
-        name: 'Most Scuffed Episode 5 - Community',
+        name: 'Most Scuffed 5 - Community',
         teaser: 'Die weitbekannte Twitch Quizshow Most Scuffed',
         images: [
             {
@@ -84,7 +84,7 @@ const projectData: ProjectInterface[] = [
         description: 'In dieser Gameshow traten zwei Teams mit jeweils vier Mitgliedern gegeneinander an. Ihre Aufgabe war es, das fehlende Wort in einem Satz zu erraten, das zuvor aus der Community gesammelt wurde. Das Team, das am Ende die meisten Punkte erzielte, gewann.'
     },
     {
-        name: 'Most Scuffed Episode 4 - Der Klügste Bleibt',
+        name: 'Most Scuffed 4 - Der Klügste Bleibt',
         teaser: 'Die weitbekannte Twitch Quizshow Most Scuffed',
         images: [
             {

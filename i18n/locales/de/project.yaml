@@ -4,5 +4,6 @@ project:
     1: "Video Produktion"
   teaser:
     showMore: "Mehr Projekte anzeigen"
+    showLess: "Weniger Projekte anzeigen"
   box:
     show: "Projekt anzeigen"
