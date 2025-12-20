@@ -33,6 +33,9 @@ export default defineNuxtConfig({
             charset: 'utf-8',
             viewport: 'width=device-width, initial-scale=1',
             title: 'BlackDayz - Gameshows',
+            link: [
+                { rel: 'icon', href: '/favicon.png', sizes: 'any' },
+            ]
         },
     },
     css: [
