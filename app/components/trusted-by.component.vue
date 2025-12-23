@@ -9,7 +9,7 @@
                     link: 'https://twitch.tv/rumathra',
                 },
                 {
-                    image: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/HTNH.png',
+                    image: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/haut[nah]-dunkel-transparent@2x.png',
                     name: 'htnh',
                     link: 'https://htnh.de',
                 },
