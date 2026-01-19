@@ -48,6 +48,7 @@ export default defineNuxtConfig({
     runtimeConfig: {
         public: {
             sentryDsn: process.env.SENTRY_DSN,
+            cloudflareAccountId: process.env.CLOUDFLARE_ACCOUNT_ID,
         }
     },
     extensions: ['ts', 'js'],

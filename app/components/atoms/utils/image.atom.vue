@@ -1,6 +1,6 @@
 <template>
     <NuxtImg
-        :src="src"
+        :src="`https://imagedelivery.net/${config.cloudflareAccountId}/${src}/public`"
         :alt="alt"
         :class="{
             [`h-${height}`]: height !== 'auto',
@@ -10,30 +10,13 @@
     />
 </template>
 
-<script lang="ts">
-export default {
-    name: 'ImageAtom',
-    props: {
-        src: {
-            type: String,
-            required: true,
-        },
-        alt: {
-            type: String,
-            required: true,
-        },
-        height: {
-            type: [String, Number],
-            default: 'auto',
-        },
-        width: {
-            type: [String, Number],
-            default: 'auto',
-        },
-        showShadow: {
-            type: Boolean,
-            default: true,
-        },
-    },
-};
+<script lang="ts" setup>
+const config = useRuntimeConfig().public;
+const { src, alt, height, width, showShadow } = defineProps<{
+    src: string;
+    alt: string | undefined;
+    height?: 'full' | 'auto' | 'screen' | number | string | undefined;
+    width?: 'full' | 'auto' | number | string | undefined;
+    showShadow?: boolean;
+}>();
 </script>

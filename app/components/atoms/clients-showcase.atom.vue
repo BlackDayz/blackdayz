@@ -14,7 +14,7 @@
                     class="flex items-center justify-center"
                     style="height: 200px; width: 200px"
                 >
-                    <NuxtImg
+                    <ImageAtom
                         :src="client.image"
                         :alt="client.name"
                         class="border-none rounded-none object-contain w-full h-full"

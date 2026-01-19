@@ -18,7 +18,7 @@
         </div>
         <div class="lg:w-1/2">
             <ImageAtom
-                src="https://cdn-homepage.blackdayz.de/api/cdn/download/images/Homepage_TitleImg.jpg"
+                src="e515419b-8290-476e-cb3b-3143f6c63900"
                 alt="Blackdayz Title Image"
                 height="full"
                 width="full"

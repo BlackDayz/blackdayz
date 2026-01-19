@@ -7,15 +7,15 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/mittlay.png'
+                src: '60450c09-eb1f-4c38-a315-a09afcdaae00'
             },
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/mittlay_editor.jpeg'
+                src: '5f8e353a-1371-47f4-50ce-f4801b76ab00'
             },
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/Einstellungen Vorschau.png'
+                src: 'a4f04857-9d81-4741-d6a9-e7fa3e73c600'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -28,23 +28,23 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/RennradShooting_BTS-00047.jpg'
+                src: '861dec64-40da-49d3-2042-a0105bf85000'
             },
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/RennradShooting_BTS-00049.jpg'
+                src: '167238f5-55a9-490d-e7e5-abd5ca3ba500'
             },
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/RennradShooting_00002.jpg'
+                src: 'c32c9e46-7f59-42de-5c97-4a6da9ba7200'
             },
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/RennradShooting_00021.jpg'
+                src: '99f8a4b5-e5db-4803-d57e-eb9108f79800'
             },
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/RennradShooting_00012.jpg'
+                src: '570313ec-ee66-46ee-86c7-836da4cfe900'
             },
         ],
         tags: [ProjectTags.VIDEO_PRODUCTION],
@@ -57,19 +57,19 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/Homepage_TitleImg.jpg'
+                src: 'e515419b-8290-476e-cb3b-3143f6c63900'
             },
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/dieLutzi25_BTS_Donnerstag-2.jpg'
+                src: '4adb8005-7814-42fa-c6c4-3121ebb24e00'
             },
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/Lutzi_Htnh_BENE_BTS-3.jpg'
+                src: '8aa0b2ea-1473-4bc4-8e8c-7e5b9bb87000'
             },
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/Lutzi_Htnh_SAMSTAG_BTS-37.jpg'
+                src: '7931870b-4db4-4569-3e08-7ff4daf9fd00'
             },
         ],
         tags: [ProjectTags.FESTIVALS],
@@ -82,7 +82,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/GruenesFeuerDoku.jpg'
+                src: 'ac5d1c64-3977-488b-b798-630cac6efa00'
             }
         ],
         tags: [ProjectTags.VIDEO_PRODUCTION],
@@ -95,7 +95,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/Most Scuffed Episode 7.jpg'
+                src: '9969e446-4f23-49eb-2383-edab63fd0d00'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -108,7 +108,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/6_mostscuffedep6.jpg'
+                src: '6058b6e6-0a5d-4d62-1558-62da85bc3500'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -121,7 +121,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/Most Scuffed Episode 5.jpg'
+                src: '5a30c76c-c4e4-4d4e-d2ab-0d440a066500'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -134,7 +134,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/Most Scuffed.jpg'
+                src: 'bd4138a0-832b-40fe-0a01-6d1a80790f00'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -147,7 +147,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/rumathraBingo.png'
+                src: '35e3c50c-c7cb-445a-45c7-95a111828800'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -160,11 +160,11 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/notionclockify.png'
+                src: '35eaed72-ab05-4778-f7ea-1abeb1788800'
             },
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/notionclockify_ap.png'
+                src: '03597f26-dcee-407d-9003-bbc769a83b00'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -177,11 +177,11 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/dokomi.png'
+                src: '7e55aa13-3f4e-41c4-6cef-af4b8755c600'
             },
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/dokomi_admin.png'
+                src: 'c91b47be-84f0-4933-9e70-77bcee0f9000'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -194,7 +194,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/mittelbot.png'
+                src: '3af38d27-1f1b-4822-7a66-4eaff3670100'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -207,11 +207,11 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/derduemmstefliegt_waitroom.png'
+                src: '17145b5c-16cd-4ee5-1f45-9271fc417b00'
             },
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/derduemmstefliegt_createdRoom.png'
+                src: '19e01afa-8099-4c27-289c-d4aabaff3a00'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -224,7 +224,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/studiodevoyage.png'
+                src: '518cbe44-1e44-48cc-5202-1afb74147e00'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -237,7 +237,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/scarexportfolio.png'
+                src: 'd29785d0-890a-4f80-f91d-8bd07d8a0700'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -250,7 +250,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/phenixgamesteam.png'
+                src: '02919ec1-2d24-4170-ea5a-0a86b263b100'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -263,7 +263,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/phenixgameshomepage.png'
+                src: '4f386f71-6ca0-4c10-6a2f-e0cb44649100'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -276,7 +276,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/phenixgamesgtaroleplay.png'
+                src: 'deec6ca7-413d-4637-a302-5ac92be10900'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -289,7 +289,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/cookieclicker.png'
+                src: '5f7f5fa4-5eea-44a0-8d84-b483b8686c00'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -302,7 +302,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/nobadvibesshop.png'
+                src: 'ce47802c-5639-486b-f40a-cc7ceb806d00'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -315,7 +315,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/nounfollowtwitch.jpg'
+                src: '414f5c99-33a2-4fcf-f0b5-65095fc64e00'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -328,7 +328,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/dazshop.png'
+                src: '9958ff7c-1b35-490c-462c-a2cdd3fabf00'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -341,7 +341,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/voteplusshopwareplugin.png'
+                src: '5a319e8d-f3a5-419d-3084-5c7365284e00'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -354,7 +354,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/changerjslibrary.png'
+                src: 'd8b852f6-053e-48ca-fda1-e9494faf8c00'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -367,15 +367,15 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/subscriptor.png'
+                src: '6f3d6123-4251-4641-a4a3-8ce3c57fcb00'
             },
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/subscriptor_login.png'
+                src: 'cbbf8ae1-a07f-4aaf-f74c-d18a525be800'
             },
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/subscriptor_neuervertrag.png'
+                src: 'eb82e11b-ece9-4727-01da-e390ca269f00'
             },
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -388,7 +388,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/lacampanadesign.png'
+                src: 'e38bd6b8-e30d-4bcc-7ae6-471924594800'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],
@@ -401,7 +401,7 @@ const projectData: ProjectInterface[] = [
         images: [
             {
                 alt: '',
-                src: 'https://cdn-homepage.blackdayz.de/api/cdn/download/images/mediengestaltungredesign.png'
+                src: '522a2403-3fb5-44ef-7c8f-681c38302100'
             }
         ],
         tags: [ProjectTags.WEB_DEVELOPMENT],

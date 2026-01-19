@@ -11,7 +11,7 @@
                 <ImageAtom
                     width="32"
                     class="rounded-none cursor-pointer border-none ms-3 lg:ms-0"
-                    src="https://cdn-homepage.blackdayz.de/api/cdn/download/images/BlackDayz_Logo.png"
+                    src="8ef6fb14-401d-48e0-41b7-482456120d00"
                     alt="BlackDayz Logo"
                     :show-shadow="false"
                     @click="() => $router.push('/')"

@@ -13,7 +13,7 @@
         <div class="flex justify-center mt-10 lg:mt-0">
             <div>
                 <ImageAtom
-                    src="https://cdn-homepage.blackdayz.de/api/cdn/download/images/AboutMe.jpg"
+                    src="eda3f555-3740-4b42-02e5-4e3b50c3f200"
                     alt="About me"
                     class="w-[320px]! h-[450px] object-cover"
                 />
