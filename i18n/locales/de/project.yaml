@@ -3,6 +3,7 @@ project:
     0: "Webentwicklung"
     1: "Video Produktion"
     2: "Festivals"
+    3: "Filmproduktion"
   teaser:
     showMore: "Mehr Projekte anzeigen"
     showLess: "Weniger Projekte anzeigen"

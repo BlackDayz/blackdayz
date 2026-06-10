@@ -2,6 +2,51 @@ import { ProjectTags } from './enum';
 
 const projectData: ProjectInterface[] = [
     {
+        name: 'Ikarus 26 - Data Wrangler',
+        teaser: 'Zuständig für die Sicherung und Sichtung der Videoaufnahmen von 9 Videographen ',
+        images: [
+            {
+                alt: '',
+                src: '53e6948d-02c8-4f0c-cd41-817f69123a00'
+            },
+            {
+                alt: '',
+                src: '37f0dc67-935d-468c-0e0c-e11d813f4200'
+            },
+            {
+                alt: '',
+                src: '18b56f01-088d-42ee-e310-f5b7f02b7e00'
+            },
+            {
+                alt: '',
+                src: '04098bc9-2519-4b67-ea7d-a15df63da200'
+            },
+            {
+                alt: '',
+                src: '87b4e94c-015a-4e5c-551b-ba4d55e83000'
+            },
+            {
+                alt: '',
+                src: '3f551558-a88d-4302-7e0a-ae1c76765200'
+            },
+            {
+                alt: '',
+                src: '3f9f07b4-2a18-46f4-68c5-2de63df8b200'
+            },
+            {
+                alt: '',
+                src: '78cb2b34-53f0-4249-2959-4c5679475100'
+            },
+            {
+                alt: '',
+                src: 'b31b6f56-5afd-4f4b-6192-675d35a93c00'
+            },
+        ],
+        tags: [ProjectTags.FESTIVALS],
+        link: 'https://www.instagram.com/ikarus.festival/',
+        description: 'Die Datensicherung ist das A und O bei einem Festival. Es gab 9 Videographen, die das Festival aus verschiedenen Perspektiven festgehalten haben. Meine Aufgabe war es, die Daten von den Speicherkarten zu sichern, zu sichten und zu organisieren. Dabei habe ich eng mit dem Schnittteam zusammengearbeitet, um sicherzustellen, dass sie Zugriff auf die benötigten Aufnahmen hatten. Die Sicherung erfolgte auf einem eigenen lokalen Server. Die Bilder sind entstanden, als ich die Gruft "Media Office" für den Auftritt von BUNT. verlassen durfte.'
+    },
+    {
         name: 'Mittlay',
         teaser: 'All-in-one Stream Overlay Editor für Twitch.',
         images: [
@@ -85,7 +130,7 @@ const projectData: ProjectInterface[] = [
                 src: 'ac5d1c64-3977-488b-b798-630cac6efa00'
             }
         ],
-        tags: [ProjectTags.VIDEO_PRODUCTION],
+        tags: [ProjectTags.FILM_PRODUCTION],
         link: 'https://youtu.be/5aDkFrUstAo',
         description: 'Die Philosophie der Wildnis, Was ist Wildnis? Brauchen wir sie noch? Und wo finden wir sie? Ein junges Filmteam nähert sich dieser Frage an, indem es sich in Schweden der Wildnis aussetzt – aber auch, indem es ausgewiesene Expert*innen zu Wort kommen lässt. So führt die Philosophin Christina Pinsdorf durch die Geschichte der Wildnis, aber auch Protagonisten wie der Polarforscher Arved Fuchs und ZDF-TerraX-Redakteur Axel Gomille kommen zu Wort.'
     },
