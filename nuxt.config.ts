@@ -44,6 +44,7 @@ export default defineNuxtConfig({
     ],
     colorMode: {
         preference: 'light',
+        storageKey: 'blackdayz-homepage-color-mode',
     },
     runtimeConfig: {
         public: {
@@ -68,9 +69,6 @@ export default defineNuxtConfig({
         shim: true,
     },
     hooks: {
-        'build:before': () => {
-            generateJsonTranslations();
-        },
         'webpack:change': () => {
             generateJsonTranslations();
         },
