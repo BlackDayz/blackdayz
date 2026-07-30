@@ -25,7 +25,7 @@
 <script lang="ts" setup>
 import projectData from '~~/shared/utils/projects';
 
-const defaultMaxProjectsToShow = 4;
+const defaultMaxProjectsToShow = 6;
 const localStorageProject = import.meta.client && localStorage.getItem('maxProjectsToShow') ? parseInt(localStorage.getItem('maxProjectsToShow') as string) : defaultMaxProjectsToShow;
 const maxProjectsToShow = ref(localStorageProject < defaultMaxProjectsToShow ? defaultMaxProjectsToShow : localStorageProject);
 

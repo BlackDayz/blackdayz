@@ -36,6 +36,15 @@ export default defineAppConfig({
                     class: 'cursor-pointer grid text-center text-primary-500 bg-gray-500 blackdayz-secondary-shadow px-12 hover:bg-gray-400 transition-all duration-200'
                 }
             ],
+        },
+        badge: {
+            compoundVariants: [
+                {
+                    color: 'primary',
+                    variant: 'outline',
+                    class: 'cursor-pointer grid text-center text-black px-2 border border-primary-500'
+                }
+            ]
         }
     },
 });

@@ -1,5 +1,5 @@
 <template>
-    <div class="border-gray-700 border-4 w-[280px] h-[520px] blackdayz-primary-shadow rounded-[39px] flex flex-col overflow-hidden">
+    <div class="border-gray-700 border-4 w-80 h-150 blackdayz-primary-shadow rounded-[39px] flex flex-col overflow-hidden">
         <div
             class="shrink-0 p-3"
             style="height: 55%"
@@ -13,8 +13,7 @@
             />
         </div>
         <div
-            class="grow flex flex-col justify-between px-3 py-1 pt-0"
-            style="height: 45%"
+            class="grow flex flex-col justify-between px-3 py-1 pt-0 h-fit"
         >
             <div>
                 <h3
@@ -26,14 +25,15 @@
                     v-html="project.teaser"
                 />
             </div>
-            <div class="my-2">
-                <span
+            <div class="my-2 flex flex-wrap gap-2">
+                <UBadge
                     v-for="tag in project.tags"
                     :key="tag"
-                    class="px-2 text-xs font-semibold rounded-full bg-gray-200 text-gray-800"
+                    color="primary"
+                    variant="outline"
                 >
                     {{ useT(`project.tags.${tag}`) }}
-                </span>
+                </UBadge>
             </div>
         </div>
         <div class="mb-10 mx-3">
@@ -50,14 +50,15 @@
                 />
                 <template #body>
                     <div class="space-y-4">
-                        <div>
-                            <span
+                        <div class="my-2 flex flex-wrap gap-2">
+                             <UBadge
                                 v-for="tag in project.tags"
                                 :key="tag"
-                                class="px-2 py-1 text-xs font-semibold rounded-full bg-gray-200 text-gray-800"
+                                color="primary"
+                                variant="outline"
                             >
                                 {{ useT(`project.tags.${tag}`) }}
-                            </span>
+                            </UBadge>
                         </div>
                         <p
                             class="leading-normal"
