@@ -50,7 +50,7 @@
     "typescript": "^7.0.2",
     "vue": "^3.5.40",
     "vue-router": "^5.2.0",
-    "vue-tsc": "^3.3.8"
+    "vue-tsc": "^3.3.4"
   },
   "devDependencies": {
     "@iconify-json/lucide": "^1.2.120",
