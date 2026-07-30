@@ -4,6 +4,8 @@ project:
     1: "Video Produktion"
     2: "Festivals"
     3: "Filmproduktion"
+    4: "App Entwicklung"
+    5: "In Entwicklung"
   teaser:
     showMore: "Mehr Projekte anzeigen"
     showLess: "Weniger Projekte anzeigen"

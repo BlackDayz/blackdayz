@@ -2,6 +2,23 @@ import { ProjectTags } from './enum';
 
 const projectData: ProjectInterface[] = [
     {
+        name: 'KochGoat',
+        teaser: 'KochGoat ist dein Allround-Kochassistent für echte Küchenmomente.',
+        images: [
+            {
+                alt: '',
+                src: '94e58135-b13e-4e3f-c35c-cde5f9f71000'
+            },
+            {
+                alt: '',
+                src: 'cd405b68-64c1-4ffb-5799-c7a4aea50d00'
+            },
+        ],
+        tags: [ProjectTags.WEB_DEVELOPMENT, ProjectTags.APP_DEVELOPMENT, ProjectTags.IN_DEVELOPMENT],
+        link: 'https://kochgoat.com',
+        description: 'KochGoat ist eine Kochassistent-App, die dabei hilft den Kochprozess zu vereinfachen - besonders für junge Menschen und Anfänger bei denen es schon scheitert, wenn sie den Kühlscrank öffnen und nicht wissen, was sie aus den Zutaten, die sie zu Hause haben, kochen können. Die App ist derzeit noch in der Entwicklung und wird vorraussichtlich Q4 2026 in die erste Beta-Phase gehen. Die App wird sowohl für iOS, Android als auch für den Webbrowser verfügbar sein.'
+    },
+    {
         name: 'Ikarus 26 - Data Wrangler',
         teaser: 'Zuständig für die Sicherung und Sichtung der Videoaufnahmen von 9 Videographen ',
         images: [
@@ -97,7 +114,7 @@ const projectData: ProjectInterface[] = [
         description: 'Einfach mal machen – das war das Motto fürs Shooting. Also kurz überlegt, in welche Richtung es gehen soll, die Route für die Rennradfahrer geplant, die Crew zusammengetrommelt – und los ging’s! 🚴‍♂️💨 Nach ein paar freiwilligen (und ein, zwei nicht ganz so freiwilligen) Standortwechseln – ein älterer Herr hatte wohl einfach keinen guten Tag – war das Ding am Ende des Tages im Kasten. Mit einer Menge Learnings, was man beim nächsten Mal besser (oder gar nicht 😅) machen sollte, ging’s dann in die Postproduktion.'
     },
     {
-        name: 'Ab geht die Lutzi 2024 & 2025',
+        name: 'Ab geht die Lutzi 2024/25/26',
         teaser: 'FOH Kamera Operator für das dreitägige Festival.',
         images: [
             {

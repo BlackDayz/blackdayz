@@ -3,4 +3,6 @@ export enum ProjectTags {
     VIDEO_PRODUCTION,
     FESTIVALS,
     FILM_PRODUCTION,
+    APP_DEVELOPMENT,
+    IN_DEVELOPMENT,
 }
