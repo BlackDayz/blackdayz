@@ -19,8 +19,42 @@ const projectData: ProjectInterface[] = [
         description: 'KochGoat ist eine Kochassistent-App, die dabei hilft den Kochprozess zu vereinfachen - besonders für junge Menschen und Anfänger bei denen es schon scheitert, wenn sie den Kühlscrank öffnen und nicht wissen, was sie aus den Zutaten, die sie zu Hause haben, kochen können. Die App ist derzeit noch in der Entwicklung und wird vorraussichtlich Q4 2026 in die erste Beta-Phase gehen. Die App wird sowohl für iOS, Android als auch für den Webbrowser verfügbar sein.'
     },
     {
+        name: 'Dance is the Language - Break Dancer',
+        teaser: 'Drei auf einander folgende Tanzreels mit verschiedenen Choreografien.',
+        images: [
+            {
+                alt: '',
+                src: '54a8425d-15c0-4c4e-248a-1243023ad500'
+            },
+            {
+                alt: '',
+                src: 'f3f3845a-a9bf-4c7f-6a9d-4fc00ef91100'
+            },
+        ],
+        tags: [ProjectTags.VIDEO_PRODUCTION],
+        link: 'https://www.instagram.com/p/DcJasNCIB93/',
+        description: 'Ein guter Freund von uns ist leidenschaftlicher Breakdancer. Wir haben gemeinsam 3 Reels produziert mit einem roten Faden, der sich durch alle Choreografien zieht.'
+    },
+    {
+        name: 'Echelon 26 - Data Wrangler',
+        teaser: 'Zuständig für die Sicherung und Sichtung der Videoaufnahmen von 7 Videographen.',
+        images: [
+            {
+                alt: '',
+                src: 'bb1e2d42-db02-4a51-0bbf-16227181f900'
+            },
+            {
+                alt: '',
+                src: 'fcae3b04-aec8-472d-06d9-31087750e900'
+            },
+        ],
+        tags: [ProjectTags.FESTIVALS],
+        link: 'https://www.instagram.com/echelon_festival/',
+        description: 'Die Datensicherung ist das A und O bei einem Festival. Es gab 7 Videographen, die das Festival aus verschiedenen Perspektiven festgehalten haben. Meine Aufgabe war es, die Daten von den Speicherkarten zu sichern, zu sichten und zu organisieren. Dabei habe ich eng mit dem Schnittteam zusammengearbeitet, um sicherzustellen, dass sie Zugriff auf die benötigten Aufnahmen hatten. Die Sicherung erfolgte auf einem eigenen lokalen Server.'
+    },
+    {
         name: 'Ikarus 26 - Data Wrangler',
-        teaser: 'Zuständig für die Sicherung und Sichtung der Videoaufnahmen von 9 Videographen ',
+        teaser: 'Zuständig für die Sicherung und Sichtung der Videoaufnahmen von 9 Videographen.',
         images: [
             {
                 alt: '',
