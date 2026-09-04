@@ -41,7 +41,7 @@
                 :title="project.name"
                 :ui="{
                     content: 'max-w-3xl',
-                    title: 'text-4xl',
+                    title: 'md:text-4xl!',
                 }"
             >
                 <SecondaryButtonAtom
@@ -51,7 +51,7 @@
                 <template #body>
                     <div class="space-y-4">
                         <div class="my-2 flex flex-wrap gap-2">
-                             <UBadge
+                            <UBadge
                                 v-for="tag in project.tags"
                                 :key="tag"
                                 color="primary"
